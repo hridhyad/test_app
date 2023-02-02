@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="workout.css">
+</head>
+<body>
+</div>
+<br>
+<h1>Workout Planner</h1>
+Workout Name 
+<input type="text" id="workout_name" placeholder="Enter Workout Name"/>
+<br/><br/>
+
+<label for="exercises">Exercises</label>
+
+<select name="exercises" id="exercise">
+  <option></option>
+  <option value="pushups">Pushups</option>
+  <option value="burpees">Burpees</option>
+  <option value="planks">Planks</option>
+  <option value="lunges">Lunges</option>
+</select>
+<br/><br/>
+Goal
+<input type="text" id="goal" placeholder="Enter goal"/>
+<button type="button" id="save_data">Save</button>
+
+<div class="border-box">
+<h1>Workouts</h1>
+<table id="workout_table">
+  <tr>
+    <th>Name</th>
+    <th>Exercises</th>
+    <th>Goal</th>
+
+  </tr>
+  
+</table>
+</div>
+<script src="workout.js"></script>   
+</body>
+</html>
